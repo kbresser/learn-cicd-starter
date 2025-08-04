@@ -25,7 +25,7 @@ jobs:
         run: test -z $(go fmt ./...)
 
   format:
-    name: Styole
+    name: Style
     runs-on: ubuntu-latest
 
     steps:
