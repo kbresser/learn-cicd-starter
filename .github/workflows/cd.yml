@@ -26,9 +26,6 @@ jobs:
           with:
             service_account_key: ${{ secrets.GCP_CREDENTIALS }}
             project_id: notely-468101
-            
-        - name: 'Set up Cloud SDK'
-          uses: 'google-github-actions/setup-gcloud@v2'
 
         - name: 'Use gcloud CLI'
           run: 'gcloud info'
